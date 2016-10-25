@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#00bfff"
+    >
+    
+    <RelativeLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+           
+    <TextView
+        android:id="@+id/TextMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextViewMobileNo."
+        android:textSize="25sp"
+        android:paddingLeft="20dp" 
+        android:textStyle="bold"
+        />
+    
+    <EditText
+        android:id="@+id/EditMobileNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/hintnumber"
+        android:layout_toRightOf="@+id/TextMobileNumber"
+        android:layout_marginLeft="20dp"
+        android:textSize="25sp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#778899"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        
+         >
+    </EditText>
+    </RelativeLayout>
+    
+     <RelativeLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    
+    <EditText 
+        android:id="@+id/EditSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:hint="@string/hintSMS"
+        android:gravity="top"
+        android:background="#ffffff"
+        android:textColorHint="#778899"
+        android:textSize="25sp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="60dp"
+         />
+    </RelativeLayout>
+    
+     <RelativeLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    
+    <Button 
+       android:id="@+id/sendSMSbutton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/sendButton"
+       android:layout_centerInParent="true"
+       android:background="#1e90ff"
+       android:textStyle="normal"
+       >
+      
+       </Button>
+   
+    </RelativeLayout>
+
+</LinearLayout>

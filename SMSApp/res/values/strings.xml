@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TextViewMobileNo.">To </string>
+    <string name="hintnumber">Enter Recipient</string>
+    <string name="hintSMS">Enter Message</string>
+    <string name="sendButton">SEND</string>
+    <string name="desc">Image</string>
+    <string name="inboxtext">Inbox Messages</string>
+    <string name="compose">Compose</string>
+    <string name="search">Search</string>
+    <string name="Inbox">Inbox</string>
+</resources>
